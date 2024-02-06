@@ -1,0 +1,131 @@
+@media (min-width: 1px) {
+    nav ul li {
+        display: none;
+    }
+    .search-icon {
+        position: absolute;
+        width: 45px;
+        right: 100px;
+        top: 0;
+        bottom: 0;
+        background-color: #FF4A52;
+    }
+    .search-icon a {
+        color: white !important;
+    }
+    .drop-down-menu {
+        position: absolute;
+        width: 45px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1ec6b6;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    .search-bar {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .search-form {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+@media (min-width: 576px) {
+    nav ul li {
+        display: none;
+    }
+    .search-icon {
+        position: absolute;
+        width: 45px;
+        right: 100px;
+        top: 0;
+        bottom: 0;
+        background-color: #FF4A52;
+    }
+    .search-icon a {
+        color: white !important;
+    }
+    .drop-down-menu {
+        position: absolute;
+        width: 45px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1ec6b6;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+    .search-bar {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .search-form {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width: 992px) {
+    nav ul li {
+        display: flex;
+    }
+    .search-icon {
+        right: 0;
+
+    }
+    .drop-down-menu {
+        display: none !important;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav ul li {
+        display: flex;
+    }
+    .search-icon {
+        width: 50px;
+    }
+    .search-bar {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .search-form {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .newsletter-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .mail-form {
+        display: block;
+    }
+    .mail-form input {
+        padding: 10px;
+    }
+    .newsletter-btn {
+        margin-top: 0;
+        padding: 26px 20px;
+        margin-left: 5px;
+    }
+    .newsletter-text {
+        margin-top: 0;
+        margin-right: 12px;
+    }
+    
+    
+}
